@@ -22,6 +22,12 @@ stocks = [
     'sector': 'Technology',
     'price': 322.08
   }  
+  {
+    'symbol': 'AAPL,
+    'name': 'Apple',
+    'sector': 'Technology',
+    'price': 177,79
+  }
 ]
 
 
