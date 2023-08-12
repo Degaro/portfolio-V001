@@ -21,12 +21,12 @@ stocks = [
     'name': 'Microsoft',
     'sector': 'Technology',
     'price': 322.08
-  }  
+  },  
   {
-    'symbol': 'AAPL,
+    'symbol': 'AAPL',
     'name': 'Apple',
     'sector': 'Technology',
-    'price': 177,79
+    'price': 177.79
   }
 ]
 
