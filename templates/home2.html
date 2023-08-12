@@ -25,14 +25,29 @@
       </p>
       
       <h2 class="text-center mt-2 mb-4">List of stocks</h2>
-      
-      <p>
-        {% for stock in stocks %}          
-          {% include 'stockitem.html' %}            
-        {% endfor %}
-      </p>
-      
-      
+
+      <div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Symbol</th>
+              <th scope="col">Name</th>
+              <th scope="col">Sector</th>
+              <th scope="col">Price</th>
+              <th scope="col">Link</th>
+            </tr>
+          </thead>
+          <tbody>        
+            <p>
+              {% for stock in stocks %}          
+                {% include 'stockitem2.html' %}           
+              {% endfor %}
+            </p>
+          </tbody>
+        </table>
+        
+      </div>  
+       
       <div class="text-center">
         <button class="btn btn-primary btn-lg">
           Contact us
